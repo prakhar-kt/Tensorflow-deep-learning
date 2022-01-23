@@ -69,7 +69,7 @@ def pred_and_plot(model, filename, class_names):
 
     import datetime
 
-    def create_tensorboard_callback(dir_name, experiment_name):
+def create_tensorboard_callback(dir_name, experiment_name):
         '''
         Creates a TensorBoard callback intance to store log files
 
