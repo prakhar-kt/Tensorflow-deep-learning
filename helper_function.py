@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+import datetime
 ########################################################################
 
 def load_and_resize_img(filename, img_shape=224, scale = True):
@@ -67,7 +67,7 @@ def pred_and_plot(model, filename, class_names):
 
 #########################################################################
 
-    import datetime
+    
 
 def create_tensorboard_callback(dir_name, experiment_name):
         '''
